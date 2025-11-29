@@ -6,7 +6,7 @@ Tulsa Game Developers Community Project • Arcade Cabinet Submission
 
 TulsaCollab is a collaborative community project developed by members of the Tulsa Game Developers group for exhibition on a physical arcade cabinet. Although not intended for commercial release, the project showcases professional-level engineering, team coordination, and optimized design tailored for unknown hardware specifications.
 
-I volunteered and was selected as the Lead Programmer and Project Manager for the Unity submission. My responsibilities included:
+## I volunteered and was selected as the Lead Programmer and Project Manager for the Unity submission. My responsibilities included:
 
  -Overall technical direction
 
@@ -22,11 +22,11 @@ I volunteered and was selected as the Lead Programmer and Project Manager for th
 
 -Ensuring every contributor could onboard smoothly
 
-This project reflects my ability to lead and manage a team while implementing scalable architecture that supports contributors with a wide range of experience levels.
+*This project reflects my ability to lead and manage a team while implementing scalable architecture that supports contributors with a wide range of experience levels.*
 
 # **👥 Team Composition**
 
-Under my direction, the development team includes:
+## Under my direction, the development team includes:
 
 -Me — Lead Programmer & Project Manager
 
@@ -40,13 +40,13 @@ Under my direction, the development team includes:
 
 -QA Tester
 
-We used GitHub for version control with a script-claiming workflow to ensure no contributor overwrites another’s work.
+*We used GitHub for version control with a script-claiming workflow to ensure no contributor overwrites another’s work.*
 
 # **🎮 Gameplay Summary**
 
 TulsaCollab is a 1–2 player top-down 2D roguelike, inspired by Vampire Survivors, Brotato, and arcade twin-stick shooters.
 
-### **Controller Requirements**
+## **Controller Requirements**
 
 The design is bound by the arcade cabinet’s constraints:
 
@@ -58,7 +58,7 @@ The design is bound by the arcade cabinet’s constraints:
 
 -Keyboard + mouse support available for debugging
 
-### *Game Flow*
+## *Game Flow*
 
 1. Loading Screen
 
@@ -92,7 +92,7 @@ The design is bound by the arcade cabinet’s constraints:
 
       -Dodge/evade actions
 
-### *Room Progression*
+## *Room Progression*
 
 -Defeat all enemies to unlock upgrades
 
@@ -138,9 +138,9 @@ The design is bound by the arcade cabinet’s constraints:
 
 # **🏗️ Architecture Overview**
 
-As Lead Programmer, I established all core architectural patterns before bringing the team onboard.
+**As Lead Programmer, I established all core architectural patterns before bringing the team onboard.**
 
-### **Single Entry Point Initialization**
+## **Single Entry Point Initialization**
 
 The main scene is intentionally empty except for a single Initializer object that:
 
@@ -156,7 +156,7 @@ The main scene is intentionally empty except for a single Initializer object tha
 
 -This maintains clarity, scalability, and platform-ready optimization.
 
-### **Async Start Functions**
+## **Async Start Functions**
 
 Most gameplay systems use custom async initialization, enabling:
 
@@ -168,7 +168,7 @@ Most gameplay systems use custom async initialization, enabling:
 
 -Cleaner separation of startup logic
 
-### **Pooling System**
+## **Pooling System**
 
 Both projectiles and enemies use an object pooling system for:
 
@@ -180,7 +180,7 @@ Both projectiles and enemies use an object pooling system for:
 
 -Supporting unpredictable arcade hardware
 
-### **Team-Friendly Practices**
+## **Team-Friendly Practices**
 
 Coding standards include:
 
@@ -196,11 +196,9 @@ Coding standards include:
 
 -Easy-to-follow logic for newer programmers
 
-This ensures all contributors—including beginners—can safely build on top of the codebase.
+*This ensures all contributors—including beginners—can safely build on top of the codebase.*
 
 # **🗂️ Key Scripts to Review**
-
-(Filenames will be mapped once uploaded, but here are the responsibilities.)
 
 ### *Core*
 
@@ -247,9 +245,8 @@ RoomSelector — Next-room UI logic
 RoomController — Enemy spawns & scaling
 
 # **🧪 Development Notes**
-*Arcade Cabinet Constraints*
 
-Because the cabinet specs were unknown, every decision prioritized:
+## Because the cabinet specs were unknown, every decision prioritized:
 
 -Low memory use
 
@@ -263,7 +260,7 @@ Because the cabinet specs were unknown, every decision prioritized:
 
 -Controller-first UX
 
-### **Team Leadership**
+## **Team Leadership**
 
 -Organized weekly progress updates
 
@@ -275,13 +272,13 @@ Because the cabinet specs were unknown, every decision prioritized:
 
 -Maintained coding standards across all scripts
 
-### **Community-Driven Production**
+## **Community-Driven Production**
 
 The game represents collaboration, mentorship, and creative effort within the Tulsa developer community. It is one of my strongest examples of team leadership and collaborative engineering.
 
 # **🚧 Why This Project Matters**
 
-TulsaCollab highlights:
+## TulsaCollab highlights:
 
 -My team leadership as both project manager and technical lead
 
@@ -295,7 +292,7 @@ TulsaCollab highlights:
 
 -A polished, fun, and highly replayable roguelike experience
 
-This project demonstrates how I lead, delegate, organize, and set standards—traits essential for senior-level engineering roles.
+*This project demonstrates how I lead, delegate, organize, and set standards—traits essential for senior-level engineering roles.*
 
 # **📚 Lessons Learned**
 
@@ -313,18 +310,18 @@ This project demonstrates how I lead, delegate, organize, and set standards—tr
 
 # **🛠️ Tech Stack**
 
--Unity 6000.2.7f2
+Unity 6000.2.7f2
 
--C#
+C#
 
--Async/await initialization patterns
+Async/await initialization patterns
 
--Object pooling
+Object pooling
 
--Unity Input System
+Unity Input System
 
--Local co-op architecture
+Local co-op architecture
 
--2D top-down rendering
+2D top-down rendering
 
--GitHub version control and collaboration tools
+GitHub version control and collaboration tools
